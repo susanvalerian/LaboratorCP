@@ -4,12 +4,10 @@ using namespace std;
 
 int main()
 {
-    int valoare, cantitate, pret;
-    cout << "Cantitatea : " << endl;
-    cin >> cantitate;
-    cout << "Pretul : " << endl;
-    cin >> pret;
-    valoare = cantitate * pret;
-    cout << "Valoarea :" << valoare << endl;
+    double mile, km;
+    cout << "Lungimea in mile: ";
+    cin >> mile;
+    km = mile * 1.609344;
+    cout << "Lungimea in Km este de " << km << endl;
     return 0;
 }
