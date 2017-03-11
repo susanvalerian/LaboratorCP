@@ -12,6 +12,6 @@ int main()
         if(v1 < v2)
         cout << "Ordine crescatoare." << endl;
     else
-        cout << "Ordine descrescatoare" << endl;
+        cout << "Ordine descrescatoare." << endl;
     return 0;
 }
